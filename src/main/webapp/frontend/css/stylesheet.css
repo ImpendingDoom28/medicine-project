@@ -1,0 +1,173 @@
+.container-fluid{
+    overflow-x: hidden;
+    padding-left: 0;
+    padding-right: 0;
+}
+a#green.navbar-brand{
+    background-color: #b0c544;
+    height: 100%;
+    margin: 0 0 0 25%;
+    padding: 10px;
+}
+
+.required {
+    color: red;
+    font-family: sans-serif;
+    display: inline-block;
+}
+
+header {
+    z-index: 2;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.nav-link {
+    margin: 3vh 0 3vh 0;
+}
+
+.navbar-brand p{
+    color: white;
+    font-size: 21px;
+    margin-top: 10%;
+}
+
+#logout > a {
+    color: ghostwhite;
+    background: darkred;
+}
+
+#logout > a:hover {
+    color: ghostwhite;
+    background: red;
+    transition-duration: 350ms;
+    text-decoration: none;
+}
+
+.col > .login__form {
+    margin: 0;
+}
+
+.login__form > p {
+    margin: 0;
+}
+
+.profile__form {
+    text-align: center;
+}
+
+.profile__col {
+    margin-top: 5rem;
+}
+
+.with-image {
+    text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.main-info {
+    text-align: center;
+}
+
+.navbar{
+    height: 100px;
+    border-bottom: 2vh solid;
+    padding: 0;
+}
+
+.navbar .collapse ul li.auth{
+    margin: 3vh 0 3vh 80%;
+}
+
+.carousel img{
+    height: 512px;
+}
+
+.first-block {
+    background: grey
+}
+
+.card{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.card-img-overlay{
+    padding: 0;
+    text-align: center;
+    top: auto;
+    bottom: 8px;
+}
+.card-img-overlay .btn-block{
+    margin-top: 20px;
+}
+
+.feed .col-md-10{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.jumbotron{
+    margin-bottom: 0;
+}
+
+.login{
+    background-color: #f8f9fa;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    margin: 0 350px 0;
+    transition: 0.2s;
+}
+.login__form{
+    align-items:center;
+    margin-top: -170px;
+}
+
+
+input.button7 {
+    outline:none;
+    font-size: 20px;
+    margin-left: 0;
+    color: white;
+    text-decoration: none;
+    padding: .5em 4em calc(.5em + 4px);
+    border-radius: 25px;
+    background: #28a745;
+    transition: 0.2s;
+}
+
+.profile{
+    text-align: center;
+    margin: 0 auto;
+}
+#profile{
+    margin-top: 5%;
+}
+
+.with-image-link {
+    padding-top: 0;
+    color: rgba(0,0,0,.5);
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.list-group{
+    margin-top: 5%;
+}
+
+.search{
+    margin-top: 5%;
+}
+
+.about{
+    margin-top: 5%;
+}
+
+i {
+    font-size: 3vh;
+}
