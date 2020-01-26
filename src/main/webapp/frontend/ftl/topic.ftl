@@ -3,6 +3,9 @@
     <head>
         <#include "configuration/head-configuration.ftl">
         <title>${topic.name}</title>
+        <script type="application/javascript">
+            <#include "../js/topic.js">
+        </script>
     </head>
     <body>
         <#include "navigation/header.ftl">
@@ -32,11 +35,12 @@
                                 <form method="post" class="profile__form">
                                     <div class="form-group">
                                         <div class="col-lg-10 offset-1">
-                                            <label for="exampleInputPassword1">Текст сообщения: </label>
-                                            <textarea id="exampleInputPassword1" name="text" class="form-control" placeholder="Введите текст сообщения"></textarea>
+                                            <label for="textMessage">Текст сообщения: </label>
+                                            <textarea id="textMessage" name="text" class="form-control" placeholder="Введите текст сообщения" oninput="checkForLength()"></textarea>
                                         </div>
+                                        <h5 id="chars">0/75</h5>
                                     </div>
-                                    <input type="submit" value="Отправить" class="button7"><br><br>
+                                    <input type="submit" id="submiter" value="Отправить" class="button7"><br><br>
                                 </form>
                             </div>
                         </form>
